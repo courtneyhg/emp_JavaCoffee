@@ -1,0 +1,11 @@
+Java Coffee -
+APCS pd 7
+Lab 03: Get Empirical
+
+- Utilize the BinSearch.java and LinSearch.java skeleton to perform either operation.
+- In SearchDriver.java we create three different test cases with differing lengths of lists.
+    - 100, 1000, 10000
+- In the main of the SearchDriver.java file, we set a variable before running both methods to record the time difference in milliseconds.
+  - LinSearch time record before running will be int linBefore
+  - BinSearch time record before running will be int binBefore
+- We then run each method for each test case, timing it using Date (System.time). We then subtract the recorded time from the first int before recording to find the difference.
