@@ -1,4 +1,10 @@
 Java Coffee - Courtney Huang, Jason Yang, Yuki Feng
 Lab03: Get Empirical
 
-Is this to log the test cases???
+12/16/2021
+* Courtney filled out the google form
+* Yuki imported skeleton and updated notes.txt with class notes
+* We discussed together how we want to conduct the experiment whoo!
+
+12/17/2021
+* updated README.md as a group
