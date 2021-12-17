@@ -1,6 +1,6 @@
 // Java Coffee - Courtney Huang, Jason Yang, Yuki Feng
 // APCS1 pd7
-// Lab03: emp
+// Lab03: Get Empirical
 // 2021-12-17
 
 /**
