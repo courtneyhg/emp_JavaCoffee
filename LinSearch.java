@@ -34,7 +34,7 @@ public class LinSearch
 
 
   // utility/helper fxn to display contents of an array of Objects
-  private static void printArray( Object[] arr )
+  public static void printArray( Object[] arr )
   {
     String output = "[ ";
 

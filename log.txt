@@ -7,4 +7,7 @@ Lab03: Get Empirical
 * We discussed together how we want to conduct the experiment whoo!
 
 12/17/2021
-* updated README.md as a group
+* updated README.md and plan.txt as a group
+
+12/18/2021
+* Yuki updated SearchDriver with test cases
