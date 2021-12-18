@@ -29,6 +29,10 @@ public class SearchDriver {
     for (int i = 0; i< ellington.length; i++) {
       ellington[i] = i * 3;
     }
+    Comparable [] rollins = new Integer[10000000];
+    for (int i = 0; i< rollins.length; i++) {
+      rollins[i] = i * 4;
+    }
 
 
     //test cases for String arrays
@@ -55,7 +59,7 @@ public class SearchDriver {
       // reggae.printArray(marley);
       // reggae.printArray(tosh);
       // reggae.printArray(sizla);
-    
+
     //testing binSearch and timing it
     System.out.println("\nBinary Search testing");
     System.out.println("1. sinatra test");
@@ -78,6 +82,14 @@ public class SearchDriver {
     binBefore = System.currentTimeMillis();
     System.out.println("Time before binary search: " + binBefore + " ms");
     jazz.binSearch(ellington,7503);
+    binAfter = System.currentTimeMillis();
+    System.out.println("Time after binary search: " + binAfter + " ms");
+    System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
+
+    System.out.println("\n4. rollins test");
+    binBefore = System.currentTimeMillis();
+    System.out.println("Time before binary search: " + binBefore + " ms");
+    jazz.binSearch(rollins,3200400);
     binAfter = System.currentTimeMillis();
     System.out.println("Time after binary search: " + binAfter + " ms");
     System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
