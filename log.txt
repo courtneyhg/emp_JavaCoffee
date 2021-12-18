@@ -10,4 +10,4 @@ Lab03: Get Empirical
 * updated README.md and plan.txt as a group
 
 12/18/2021
-* Yuki updated SearchDriver with test cases
+* Yuki updated SearchDriver with test cases along with the timing variables, and performed the experiment on the integer arrays with both binary search and linear. She is confused why the first test case is always the longest and takes around 65ms whereas the cases after take 0-1 ms.

@@ -55,17 +55,58 @@ public class SearchDriver {
       // reggae.printArray(marley);
       // reggae.printArray(tosh);
       // reggae.printArray(sizla);
-
-    //testing linSearch and timing it
-    long binBefore1 = System.currentTimeMillis();
-    System.out.println("Time before binary search: " + binBefore1);
+    
+    //testing binSearch and timing it
+    System.out.println("\nBinary Search testing");
+    System.out.println("1. sinatra test");
+    long binBefore = System.currentTimeMillis();
+    System.out.println("Time before binary search: " + binBefore + " ms");
     jazz.binSearch(sinatra,42);
-    long binAfter1 = System.currentTimeMillis();
-    System.out.println("Time after binary search: " + binAfter1);
+    long binAfter = System.currentTimeMillis();
+    System.out.println("Time after binary search: " + binAfter + " ms");
+    System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
+
+    System.out.println("\n2. armstrong test");
+    binBefore = System.currentTimeMillis();
+    System.out.println("Time before binary search: " + binBefore + " ms");
+    jazz.binSearch(armstrong,1342);
+    binAfter = System.currentTimeMillis();
+    System.out.println("Time after binary search: " + binAfter + " ms");
+    System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
+
+    System.out.println("\n3. ellington test");
+    binBefore = System.currentTimeMillis();
+    System.out.println("Time before binary search: " + binBefore + " ms");
+    jazz.binSearch(ellington,7503);
+    binAfter = System.currentTimeMillis();
+    System.out.println("Time after binary search: " + binAfter + " ms");
+    System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
 
     //testing linSearch and timing it
-    long linBefore1 = System.currentTimeMillis();
-    System.out.println("Time before linear search: " + linBefore1);
+    System.out.println("\nLinear Search testing");
+    System.out.println("1. sinatra test");
+    long linBefore = System.currentTimeMillis();
+    System.out.println("Time before linear search: " + linBefore + " ms");
+    jazz.binSearch(sinatra,42);
+    long linAfter = System.currentTimeMillis();
+    System.out.println("Time after linear search: " + linAfter + " ms");
+    System.out.println("Time elapsed: " + (linAfter-linBefore) + " ms");
+
+    System.out.println("\n2. armstrong test");
+    linBefore = System.currentTimeMillis();
+    System.out.println("Time before linear search: " + linBefore + " ms");
+    jazz.binSearch(armstrong,1342);
+    linAfter = System.currentTimeMillis();
+    System.out.println("Time after linear search: " + linAfter + " ms");
+    System.out.println("Time elapsed: " + (linAfter-linBefore) + " ms");
+
+    System.out.println("\n3. ellington test");
+    linBefore = System.currentTimeMillis();
+    System.out.println("Time before linear search: " + linBefore + " ms");
+    jazz.binSearch(ellington,7503);
+    linAfter = System.currentTimeMillis();
+    System.out.println("Time after linear search: " + linAfter + " ms");
+    System.out.println("Time elapsed: " + (linAfter-linBefore) + " ms");
 
   } //ends main
 } //ends class
