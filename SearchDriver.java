@@ -71,18 +71,18 @@ public class SearchDriver {
     System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
 
     System.out.println("\n2. armstrong test");
-    binBefore = System.currentTimeMillis();
+    long before = System.currentTimeMillis();
     System.out.println("Time before binary search: " + binBefore + " ms");
     jazz.binSearch(armstrong,1342);
-    binAfter = System.currentTimeMillis();
+    long after = System.currentTimeMillis();
     System.out.println("Time after binary search: " + binAfter + " ms");
     System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
 
     System.out.println("\n3. ellington test");
-    binBefore = System.currentTimeMillis();
+    long first = System.currentTimeMillis();
     System.out.println("Time before binary search: " + binBefore + " ms");
     jazz.binSearch(ellington,7503);
-    binAfter = System.currentTimeMillis();
+    long second = System.currentTimeMillis();
     System.out.println("Time after binary search: " + binAfter + " ms");
     System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
 
