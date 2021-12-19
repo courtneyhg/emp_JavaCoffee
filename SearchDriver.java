@@ -99,7 +99,7 @@ public class SearchDriver {
     System.out.println("1. sinatra test");
     long linBefore = System.currentTimeMillis();
     System.out.println("Time before linear search: " + linBefore + " ms");
-    jazz.binSearch(sinatra,42);
+    reggae.linSearch(sinatra,42);
     long linAfter = System.currentTimeMillis();
     System.out.println("Time after linear search: " + linAfter + " ms");
     System.out.println("Time elapsed: " + (linAfter-linBefore) + " ms");
@@ -107,7 +107,7 @@ public class SearchDriver {
     System.out.println("\n2. armstrong test");
     linBefore = System.currentTimeMillis();
     System.out.println("Time before linear search: " + linBefore + " ms");
-    jazz.binSearch(armstrong,1342);
+    reggae.linSearch(armstrong,1342);
     linAfter = System.currentTimeMillis();
     System.out.println("Time after linear search: " + linAfter + " ms");
     System.out.println("Time elapsed: " + (linAfter-linBefore) + " ms");
@@ -115,7 +115,7 @@ public class SearchDriver {
     System.out.println("\n3. ellington test");
     linBefore = System.currentTimeMillis();
     System.out.println("Time before linear search: " + linBefore + " ms");
-    jazz.binSearch(ellington,7503);
+    reggae.linSearch(ellington,7503);
     linAfter = System.currentTimeMillis();
     System.out.println("Time after linear search: " + linAfter + " ms");
     System.out.println("Time elapsed: " + (linAfter-linBefore) + " ms");
