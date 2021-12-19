@@ -21,3 +21,6 @@ Lab03: Get Empirical
 * Courtney also ran the code and tried to change the primitives to see if that may
   have been affecting the results. She failed to solve the problem. She will now be
   taking a break and come back to it later.
+
+12/19/2021
+* Yuki updated driver again by playing around with really large arrays. Ran into Java out of heap space error so she stuck to the original array sizes. 
