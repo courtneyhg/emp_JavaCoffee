@@ -11,6 +11,10 @@ utilizes three test cases
 
 public class SearchDriver {
   public static void main(String[] args) {
+    //testing looking thru java library for Time
+    long test = System.currentTimeMillis();
+    System.out.println(test);
+
     //accessing BinSearch
     BinSearch jazz = new BinSearch();
     //accessing LinSearch
@@ -71,20 +75,20 @@ public class SearchDriver {
     System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
 
     System.out.println("\n2. armstrong test");
-    long before = System.currentTimeMillis();
+    binBefore = System.currentTimeMillis();
     System.out.println("Time before binary search: " + binBefore + " ms");
     jazz.binSearch(armstrong,1342);
-    long after = System.currentTimeMillis();
+    binAfter = System.currentTimeMillis();
     System.out.println("Time after binary search: " + binAfter + " ms");
     System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
 
     System.out.println("\n3. ellington test");
     long first = System.currentTimeMillis();
-    System.out.println("Time before binary search: " + binBefore + " ms");
+    System.out.println("Time before binary search: " + first + " ms");
     jazz.binSearch(ellington,7503);
     long second = System.currentTimeMillis();
-    System.out.println("Time after binary search: " + binAfter + " ms");
-    System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
+    System.out.println("Time after binary search: " + second + " ms");
+    System.out.println("Time elapsed: " + (second-first) + " ms");
 
     System.out.println("\n4. rollins test");
     binBefore = System.currentTimeMillis();

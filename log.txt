@@ -23,4 +23,10 @@ Lab03: Get Empirical
   taking a break and come back to it later.
 
 12/19/2021
-* Yuki updated driver again by playing around with really large arrays. Ran into Java out of heap space error so she stuck to the original array sizes. 
+* Yuki updated driver again by playing around with really large arrays. Ran into
+  Java out of heap space error so she stuck to the original array sizes.
+
+12/20/2021
+* We are stuck, we are confused. We noticed that whatever we put first took the
+  longest. We did something wrong with importing time?
+* We posted a question to the QAF regarding our large time differences
