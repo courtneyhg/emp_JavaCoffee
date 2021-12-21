@@ -9,7 +9,9 @@ Java Coffee: Yuki Feng, Jason Yang, Courtney Huang
 ### Results
 - Binary: 0ms for size 100, 0ms for size 10000, 2ms for size 1000000, 0ms for size 100000000, 0ms for size 100000000, 7ms for size 100000000
 - Linear: 0ms for size 100, 0ms for size 10000, 2ms for size 1000000, 13ms for size 100000000, 31ms for size 100000000, 26ms for size 100000000
-   
+
+Results are based on using `linearSearch` and `binarySearch` on the same array with the same target to keep everything constant.
+ 
 
 ### Conclusions
 - BinarySearch takes less time than LinearSearch. However, this is only evident after the array length increases to a certain point.
