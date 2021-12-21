@@ -7,5 +7,9 @@ Java Coffee: Yuki Feng, Jason Yang, Courtney Huang
    3. The before time is subtracted from the after time in order to find out the total time elapsed.
 
 ### Results
+- Binary: 0ms for size 100, 0ms for size 10000, 2ms for size 1000000, 0ms for size 100000000, 0ms for size 100000000, 7ms for size 100000000
+- Linear: 0ms for size 100, 0ms for size 10000, 2ms for size 1000000, 13ms for size 100000000, 31ms for size 100000000, 26ms for size 100000000
+   
 
 ### Conclusions
+- BinarySearch takes less time than LinearSearch. However, this is only evident after the array length increases to a certain point.
