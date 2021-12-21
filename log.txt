@@ -32,3 +32,4 @@ Lab03: Get Empirical
 * We posted a question to the QAF regarding our large time differences
 * Courtney fixed the issue jfkdjfdk by increasing the size of the array and moving
   when it does System prints out the time before the binary search.
+* Jason added 2 more test cases and updated readMe
