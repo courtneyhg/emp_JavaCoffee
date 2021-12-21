@@ -30,3 +30,5 @@ Lab03: Get Empirical
 * We are stuck, we are confused. We noticed that whatever we put first took the
   longest. We did something wrong with importing time?
 * We posted a question to the QAF regarding our large time differences
+* Courtney fixed the issue jfkdjfdk by increasing the size of the array and moving
+  when it does System prints out the time before the binary search.
