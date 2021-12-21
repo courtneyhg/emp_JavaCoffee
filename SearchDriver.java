@@ -70,11 +70,11 @@ public class SearchDriver {
     System.out.println("\nBinary Search testing");
     System.out.println("1. sinatra test");
     long binBefore = System.currentTimeMillis();
-<<<<<<< HEAD
+
     jazz.binSearch(sinatra,43);
-=======
+
     jazz.binSearch(sinatra,42);
->>>>>>> c465349d669ce55b708ebc1d8fbced7b1ccc00f2
+
     long binAfter = System.currentTimeMillis();
     System.out.println("Time before binary search: " + binBefore + " ms");
     System.out.println("Time after binary search: " + binAfter + " ms");
@@ -159,7 +159,7 @@ public class SearchDriver {
     System.out.println("Time after linear search: " + linAfter + " ms");
     System.out.println("Time elapsed: " + (linAfter-linBefore) + " ms");
 
-<<<<<<< HEAD
+
     System.out.println("\n5. rollins test Part 2");
     linBefore = System.currentTimeMillis();
     reggae.linSearch(rollins,32004100);
@@ -177,8 +177,7 @@ public class SearchDriver {
     System.out.println("Time elapsed: " + (linAfter-linBefore) + " ms");
 
 
-=======
->>>>>>> c465349d669ce55b708ebc1d8fbced7b1ccc00f2
+
 
   } //ends main
 } //ends class
