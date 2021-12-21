@@ -106,9 +106,9 @@ public class SearchDriver {
 
     System.out.println("\n5. rollins test Part 2");
     binBefore = System.currentTimeMillis();
-    System.out.println("Time before binary search: " + binBefore + " ms");
     jazz.binSearch(rollins,32004100);
     binAfter = System.currentTimeMillis();
+    System.out.println("Time before binary search: " + binBefore + " ms");
     System.out.println("Time after binary search: " + binAfter + " ms");
     System.out.println("Time elapsed: " + (binAfter-binBefore) + " ms");
 
