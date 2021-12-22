@@ -6,3 +6,8 @@ Good things to remember for this experiment:
 - test multiple times
 - keep to one variable at a time
 - average out the times for each test to find the mean time needed to perform linear and binary search
+
+GALLERY TOUR: (Only one person)
+-All of the groups came with the same conclusion that binarySearch is fasater than linearSearch. 
+-Team Frog had an interesting situtation in which the time it took for binarySearch to work got decreased by a factor of 100 everytime the test array case size grew. Shouldn't it make sense for it to be longer and not shorter?
+- For testing the worst case, linSearch and binarySearch took approximately the same amoun of time to find the target. However, has the array size grew, it was clear that the linearSearch time increased while the binarySEarch time stayed more or less the same.
